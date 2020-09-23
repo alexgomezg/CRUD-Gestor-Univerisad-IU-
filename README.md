@@ -1,2 +1,2 @@
 # CRUD-Gestor-Univerisad-IU-
-Poryecto asignatura Interfaces Usuario
+Proyecto asignatura Interfaces Usuario
