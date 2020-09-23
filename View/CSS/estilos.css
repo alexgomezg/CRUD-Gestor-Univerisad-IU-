@@ -1,0 +1,362 @@
+/*//Hoja de Estilos : estilos
+//Creado el : 29-10-2019
+//Creado por: Alejandro Gómez González*/
+
+/*En este fichero se describen todos los estilos utilizados en la página web*/
+
+/*Estilos de body*/
+body {
+        font-family: 'Roboto', sans-serif; /*Familia de fuentes*/
+        font-size: 15px; /*Tamño fuente*/
+        background-color: #f2f2f2; /*Color de fondo*/
+      }
+
+/*Estilos de títulos*/
+h1{
+color: #246355;
+}
+
+h3{
+color: #246355;
+font-size: 20px; /*Tamño fuente*/
+background-color: #f2f2f2; /*Color de fondo*/
+}
+
+text{
+	color:red;
+}
+/*Contendor general que contiene a las tablas SHOWALL*/
+#main-container{
+  width: 100%;
+}
+/*Estilos de las tanlas SHOWALL*/
+table{
+  background-color: white; /*Color de fondo*/
+  text-align: left;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td{
+  padding: 15px;
+}
+
+thead{
+  background-color: #246355; /*Color de fondo*/
+  border-bottom: solid 5px #0F362D;
+  color: white;
+}
+
+tr:nth-child(even){
+  background-color: #ddd; /*Color de fondo*/
+}
+
+tr:hover td{
+  background-color: #369681; /*Color de fondo*/
+  color: white;
+}
+
+/*Estilos de enlaces*/
+a{
+	color: #4CAF50;
+}
+/************************************************************************************************************************/
+/*Estilos de formularios*/
+form{
+      background-color: white; /*Color de fondo*/
+      border-radius: 3px;
+      color: black;
+      font-size: 1.0em; /*Tamño fuente*/
+      padding: 20px;
+      margin: 0 auto;
+      width: 500px;
+    }
+    input[type=text], textarea {
+      border: 0;
+      outline: none;
+      width: 480px;
+      border: solid 1px #ccc;
+      padding: 10px;
+      border-radius: 4px;
+    }
+    input[type=submit], textarea {
+      border: 0;
+      outline: none;
+      width: 480px;
+      border: solid 1px #ccc;
+      padding: 10px;
+    }
+     input[type=date], textarea {
+      border: 0;
+      outline: none;
+      width: 480px;
+      border: solid 1px #ccc;
+      padding: 10px;
+      border-radius: 4px;
+    }
+    input[type=password], textarea {
+      border: 0;
+      outline: none;
+      width: 480px;
+      border: solid 1px #ccc;
+      padding: 10px;
+      border-radius: 4px;
+    }
+    input[type=text]:focus {
+       border-color: #18A383;
+    }
+    input[type=text]:read-only {
+      background-color: #C3C3C3;
+    }
+    input[type=text]:read-only:focus {
+       border-color: red;
+    }
+
+    select {
+  width: 480px;
+  padding: 16px 22px;
+  border: none;
+  border-radius: 4px;
+  background-color: #98D398; /*Color de fondo*/
+  cursor:pointer; /*Cambie el cursor para mostrar un clickeable*/
+}
+
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    max-width: 80%;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: 0.25em;
+}
+
+.iborrainputfile {
+  font-size:16px; 
+  font-weight:normal;
+  font-family: 'Lato';
+}
+
+.inputfile-1 + label {
+    color: #fff;
+    background-color: #98D398;
+}
+
+.inputfile-1:focus + label,
+.inputfile-1.has-focus + label,
+.inputfile-1 + label:hover {
+    background-color: #84b784; /*Color de fondo*/
+}
+
+.btn{
+  border-radius: 3px;
+  display: inline-block;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
+  cursor:pointer;
+}
+
+.btn-add{
+  color: white;
+  background-color: #3CC93F;/*Color de fondo*/
+}
+.btn-add:hover{
+  background-color: #37B839;/*Color de fondo*/ 
+}
+.btn-add:active{
+  background-color: #29962A;/*Color de fondo*/
+}
+
+.btn-edit{
+  color: white;
+  background-color: #037ffc;/*Color de fondo*/
+}
+.btn-edit:hover{
+  background-color: #036bfc;/*Color de fondo*/
+}
+.btn-edit:active{
+  background-color: #035afc;/*Color de fondo*/
+}
+
+.btn-delete{
+  color: white;
+  background-color: #e6413e;/*Color de fondo*/
+}
+.btn-delete:hover{
+  background-color: #C93832;/*Color de fondo*/  
+}
+.btn-delete:active{
+  background-color: #ad2a24;/*Color de fondo*/
+}
+
+.btn-search{
+  color: white;
+  background-color: #37648f;/*Color de fondo*/
+}
+.btn-search:hover{
+  background-color: #264a6c;/*Color de fondo*/  
+}
+.btn-search:active{
+  background-color: #1c354d;/*Color de fondo*/
+}
+
+.btn-show{
+  color: white;
+  background-color: #fc8d03;/*Color de fondo*/
+}
+.btn-show:hover{
+  background-color: #da7a03;/*Color de fondo*/  
+}
+.btn-show:active{
+  background-color: #c16e06;/*Color de fondo*/
+}
+/****************************************************************************************************************/
+
+/*Estilos de div*/
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;/*Color de fondo*/
+}
+
+/****************************************************************************************************************/
+
+/*Estilos de menu*/
+#menu{
+      background-color: #246355;/*Color de fondo*/
+      width: 100%;/*100% del ancho*/
+      text-align: center;
+    }
+    #menu ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    #menu ul li{
+      display: inline-block;
+       cursor:pointer;
+    }
+    #menu ul li a{
+      color: white;
+      display: list-item;
+      padding: 18px 15px;
+      text-decoration: none;
+      cursor:pointer;
+    }
+    #menu ul li a:hover{
+      background-color: #42B881; /*Color de fondo*/
+      cursor:pointer;
+    }
+    .item-r{
+      float: right;
+    }
+
+/****************************************************************************************************************/
+
+/*Estilos de la ventana modal*/
+
+#modal {
+  width:100%; /*100% del ancho de la página*/
+  height:100%; /*100% del alto de la página*/
+  position:fixed; /*Posición fija*/
+  background-color: rgba(1, 1, 1, 0.5); /*Color de fondo con opacidad*/
+  top:0; /*Posicion superior*/
+  left:0; /*Posicionn lateral*/
+  z-index:10; /*Hace que se posicione encima de todos los elementos*/
+}
+
+#contenido-interno { 
+  background: #919191;
+  position: absolute; /*Posicion absoluta*/
+  z-index: 20; /*Hace que se posicione encima de todos los elementos*/
+  border-radius:5px;
+  width: 500px;
+  height: 90px;
+  margin-top: 250px;
+  margin-left: 420px;
+}
+
+#aviso{
+  position:absolute;
+  margin-left: 20px;
+  background-color: transparent;
+}
+
+#aviso img{
+  width: 50px; /*Ancho de 50px en la imagen dentro del modal*/
+}
+
+#mensajeError{
+  font-size: 15px; /*Tamño fuente*/
+  font-weight: bold;
+  position: absolute; /*Posicion absoljuta*/
+  margin-left: 178px;
+  margin-top: 30px;
+  color: #d50000;
+  background-color: transparent;
+}
+
+#cerrar {
+  position:absolute; /*Posicion absoljuta*/
+    top:0px;
+    right:0px;
+    padding:2px;
+}
+
+/****************************************************************************************************************/
+
+/*Estilos de las cajas de mensajes*/
+.caja_mensaje{
+background:#98D398; /*Color de fondo*/
+color:#FFFFFF;
+font-weight:bold;
+padding:4px;
+text-align:center;
+width: 100%;
+}
+
+.caja_mensaje_rojo{
+background:#AD4039; /*Color de fondo*/
+color:#FFFFFF;
+font-weight:bold;
+padding:4px;
+text-align:center;
+width: 100%;
+}
+
+.caja_mensaje_rojo2{
+background:#AD4039; /*Color de fondo*/
+color:#FFFFFF;
+font-weight:bold;
+padding:4px;
+width: 100%;
+}
+
+.tablaInicio{
+  background-color: #f2f2f2;
+}
+img{
+  cursor:pointer;
+}
+

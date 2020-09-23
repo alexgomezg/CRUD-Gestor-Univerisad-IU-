@@ -1,0 +1,91 @@
+/*//Hoja de Estilos : estilos_test
+//Creado el : 29-10-2019
+//Creado por: Alejandro Gómez González*/
+
+/*En este fichero se describen todos los estilos utilizados en los test*/
+
+/*Estilos de body*/
+body {
+        font-family: 'Roboto', sans-serif; /*Familia de fuentes*/
+        font-size: 15px; /*Tamño fuente*/
+        background-color: #f2f2f2; /*Color de fondo*/
+      }
+
+/*Estilos de títulos*/
+h1{
+color: #246355;
+}
+
+h3{
+color: #246355;
+font-size: 20px; /*Tamño fuente*/
+background-color: #f2f2f2; /*Color de fondo*/
+}
+
+text{
+	color:red;
+}
+/*Contendor general que contiene a las tablas SHOWALL*/
+#main-container{
+  width: 100%;
+}
+/*Estilos de las tanlas SHOWALL*/
+.table_principal{
+  background-color: white; /*Color de fondo*/
+  text-align: left;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+.table_principal th, td{
+  padding: 5px;
+}
+
+.table_principal thead{
+  background-color: #246355; /*Color de fondo*/
+  border-bottom: solid 5px #0F362D;
+  color: white;
+}
+
+.table_principal tr:nth-child(even){
+  background-color: #ddd; /*Color de fondo*/
+}
+
+.table_principal tr:hover td{
+  background-color: #369681; /*Color de fondo*/
+  color: white;
+}
+
+/*Estilos de las cajas de mensajes*/
+.caja_test_correcto{
+background:#98D398; /*Color de fondo*/
+color:#FFFFFF;
+font-weight:bold;
+padding:4px;
+text-align:center;
+width: 150px;
+border-radius: 5px;
+font-size:2em;
+}
+
+.caja_test_incorrecto{
+background:#AD4039; /*Color de fondo*/
+color:#FFFFFF;
+font-weight:bold;
+padding:4px;
+text-align:center;
+width: 150px;
+border-radius: 5px;
+font-size:2em;
+}
+
+.caja_test_total{
+background:#303030; /*Color de fondo*/
+color:#FFFFFF;
+font-weight:bold;
+padding:4px;
+text-align:center;
+width: 310px;
+border-radius: 5px;
+font-size:2em;
+}

@@ -1,0 +1,8 @@
+Portal de Gestión=>Portal de Xestión
+Usuario no autenticado=>Usuario non autenticado
+Ejemplo arquitectura IU=>Ejemplo arquitectura IU2
+Login=>Login2
+idioma=>Idioma2
+Usuario=>Usuario2
+Ejemplo=>Ejemplo2
+Creado por Alejandro Gómez González el 28/10/2019=>Creado por Alejandro Gómez González o 28/10/2019
